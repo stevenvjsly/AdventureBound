@@ -1,0 +1,51 @@
+body, html {
+	height: 100%;
+}
+
+body {
+	background: url(https://images.unsplash.com/photo-1415378102122-81ca7015e28b?auto=format&fit=crop&w=1489&q=80&ixid=dW5zcGxhc2guY29tOzs7Ozs%3D);
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#content {
+	font-family: 'Open Sans', sans-serif;
+	text-align: center;
+	padding-top: 35%;
+	color: white;
+	text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4),
+				 0px 8px 13px rgba(0, 0, 0, 0.1),
+				 0px 18px 32px (0, 0, 0, 0.1);
+
+}
+
+h1 {
+	font-size: 3em;
+}
+
+hr {
+	width: 400px;
+	border-top: 1px solid white;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem 1rem 0 1rem;
+  background-color: #f8f9fa;
+  text-align: center;
+}
+
+.fix {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+
